@@ -1,0 +1,30 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+  }
+  
+  body {
+	width: 100%;
+	background-color: #ffd845;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+img {
+	object-fit: cover;
+	vertical-align: middle;
+}
